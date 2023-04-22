@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone Practice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/videoSection.css">
+    <link rel="stylesheet" href="css/shorts.css">
+    <link rel="stylesheet" href="css/asideClone.css">
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fa-solid fa-bars burger"></i>
+                <img src="images/YouTube_Premium_logo.svg" id="logo" alt="">
+            </div>
+            <div class="input-group">
+                <input type="search" name="" id="searchInput" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+                <i class="fa-solid fa-xmark" id="dismiss"></i>
+                <i class="fa-solid fa-microphone mic"></i>
+            </div>
+            <div class="rightSide" id="rightSideIcons">
+                <i class="fa-solid fa-video"></i>
+                <i class="fa-solid fa-bell"></i>
+
+
+                <div class="userImageBox">
+                    <img src="images/userphoto.png" alt="">
+                </div>
+            </div>
+
+        </nav>
+        <div class="tags">
+            <!-- <div class="tagsContent"> -->
+            <a href="#">All</a>
+            <a href="#">Mixes</a>
+            <a href="#">Music</a>
+            <a href="#">CSS</a>
+            <a href="#">React</a>
+            <a href="#">Live</a>
+            <a href="#">Dre</a>
+            <a href="#">Freestyle</a>
+            <a href="#">Soundtracks</a>
+            <a href="#">Raye</a>
+            <a href="#">MJ</a>
+            <a href="#">Dre</a>
+            <a href="#">Freestyle</a>
+            <a href="#">50</a>
+            <a href="#">Mixes</a>
+            <a href="#">Music</a>
+            <a href="#">CSS</a>
+            <a href="#">React</a>
+            <a href="#">Live</a>
+            <a href="#">Dre</a>
+            <a href="#">Freestyle</a>
+            <a href="#">Soundtracks</a>
+            <a href="#">Raye</a>
+            <a href="#">MJ</a>
+            <a href="#">Dre</a>
+            <a href="#">Freestyle</a>
+            <a href="#">50</a>
+            <a href="#">Mixes</a>
+            <a href="#">Music</a>
+            <a href="#">CSS</a>
+            <a href="#">React</a>
+            <a href="#">Music</a>
+            <a href="#">CSS</a>
+            <a href="#">React</a>
+
+
+            <i class="fa solid fa-chevron-right chevronright"></i>
+            <!-- </div> -->
+        </div>
+    </header>
+    <main>
+        <aside id="asideMenu">
+            <ul class="menucol1">
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-house"></i>
+                            <span>Home</span>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-strikethrough"></i>
+                            <span>Shorts</span>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-layer-group"></i>
+                            <span>Subscriptions</span>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>Originals</span>
+                        </div>
+                    </a></li>
+                <li class="willRemoveItems"><a href="#">
+                        <div>
+                            <i class="fa-regular fa-circle-play"></i>
+                            <span>YouTube Music</span>
+                        </div>
+                    </a></li>
+            </ul>
+
+            <ul class="menucol2">
+                <li>
+                    <a href="#">
+                        <div>
+                            <i class="fa-solid fa-book-open"></i>
+                            <span>Library</span>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                            <span>History</span>
+                        </div>
+                    </a></li>
+                <li class="willRemoveItems"><a href="#">
+                        <div><i class="fa-solid fa-video"></i>
+                            <span>Your Videos</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="willRemoveItems"><a href="#">
+                        <div>
+                            <i class="fa-regular fa-clock"></i>
+                            <span>Watch Later</span>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-download"></i>
+                            <span>Downloads</span>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-angle-down"></i>
+                            <span class="willRemoveItems">Show
+                                More</span>
+                        </div>
+                    </a></li>
+            </ul>
+
+            <div id="asideSecond">
+                <ul class="channel-brandImage">
+                    <h3>Subscriptions</h3>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside1.jpeg" alt="">
+                            </div>
+                            Mutlu Cocuk
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside2.jpeg" alt="">
+                            </div>
+                            Bilgisayar Genetigi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                            </div>
+                            Sosyal Bilisim
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside4.webp" alt="">
+                            </div>
+                            Coding
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside5.jpeg" alt="">
+                            </div>
+                            Gelecek Bilimde
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside6.jpeg" alt="">
+                            </div>
+                            Codehal
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside7.png" alt="">
+                            </div>
+                            Sanagrafi
+                        </a>
+                    </li>
+
+                </ul>
+
+                <ul class="menucol3">
+                    <h3>Explore</h3>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-fire-flame-curved"></i>
+                                <span>Trending</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <span>Music</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-tower-broadcast"></i>
+                                <span>Live</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>Gaming</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-trophy"></i>
+                                <span>Sport</span>
+                            </div>
+                        </a></li>
+                </ul>
+
+                <ul class="channel-brandImage">
+                    <h3>More From YouTube</h3>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/youtubeStudio.svg" alt="">
+                            </div>
+                            Youtube Studio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/youtubeMusic.svg" alt="">
+                            </div>
+                            Youtube Music
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/youtubeKids.svg" alt="">
+                            </div>
+                            Youtube Kids
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="menucol4">
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-gear"></i>
+                                <span>Settings</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-flag"></i>
+                                <span>Report History</span>
+                            </div>
+                        </a></li>
+
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>Help</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                <span>Send Feedback</span>
+                            </div>
+                        </a></li>
+                </ul>
+
+                <div class="aside-footer">
+                    <div>
+                        <a href="#">About</a>
+                        <a href="#">Press</a>
+                        <a href="#">Copyright</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Creator</a>
+                        <a href="#">Advertice</a>
+                        <a href="#">developers</a>
+                    </div>
+
+                    <div>
+                        <a href="#">Terms</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Policy 7 Safety</a>
+                        <a href="#">How YouTube Works</a>
+                        <a href="#">Test new features</a>
+                    </div>
+
+                    <p>&copy; 2023 Google LLC</p>
+                </div>
+            </div>
+
+        </aside>
+
+        <div class="asideClone">
+            <div class="logo">
+                <i class="fa-solid fa-bars burgerAsideClone"></i>
+                <img src="images/YouTube_Premium_logo.svg" alt="">
+            </div>
+            <ul class="menucol1">
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-house"></i>
+                            <span>Home</span>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-strikethrough"></i>
+                            <span>Shorts</span>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-layer-group"></i>
+                            <span>Subscriptions</span>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>Originals</span>
+                        </div>
+                    </a></li>
+                <li class="willRemoveItems"><a href="#">
+                        <div>
+                            <i class="fa-regular fa-circle-play"></i>
+                            <span>YouTube Music</span>
+                        </div>
+                    </a></li>
+            </ul>
+
+            <ul class="menucol2">
+                <li>
+                    <a href="#">
+                        <div>
+                            <i class="fa-solid fa-book-open"></i>
+                            <span>Library</span>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                            <span>History</span>
+                        </div>
+                    </a></li>
+                <li class="willRemoveItems"><a href="#">
+                        <div><i class="fa-solid fa-video"></i>
+                            <span>Your Videos</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="willRemoveItems"><a href="#">
+                        <div>
+                            <i class="fa-regular fa-clock"></i>
+                            <span>Watch Later</span>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-download"></i>
+                            <span>Downloads</span>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div>
+                            <i class="fa-solid fa-angle-down"></i>
+                            <span class="willRemoveItems">Show
+                                More</span>
+                        </div>
+                    </a></li>
+            </ul>
+
+            <div id="asideSecond">
+                <ul class="channel-brandImage">
+                    <h3>Subscriptions</h3>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside1.jpeg" alt="">
+                            </div>
+                            Mutlu Cocuk
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside2.jpeg" alt="">
+                            </div>
+                            Bilgisayar Genetigi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                            </div>
+                            Sosyal Bilisim
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside4.webp" alt="">
+                            </div>
+                            Coding
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside5.jpeg" alt="">
+                            </div>
+                            Gelecek Bilimde
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside6.jpeg" alt="">
+                            </div>
+                            Codehal
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/asideChannelImage/aside7.png" alt="">
+                            </div>
+                            Sanagrafi
+                        </a>
+                    </li>
+
+                </ul>
+
+                <ul class="menucol3">
+                    <h3>Explore</h3>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-fire-flame-curved"></i>
+                                <span>Trending</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <span>Music</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-tower-broadcast"></i>
+                                <span>Live</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>Gaming</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-trophy"></i>
+                                <span>Sport</span>
+                            </div>
+                        </a></li>
+                </ul>
+
+                <ul class="channel-brandImage">
+                    <h3>More From YouTube</h3>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/youtubeStudio.svg" alt="">
+                            </div>
+                            Youtube Studio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/youtubeMusic.svg" alt="">
+                            </div>
+                            Youtube Music
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="ImageBox">
+                                <img src="images/youtubeKids.svg" alt="">
+                            </div>
+                            Youtube Kids
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="menucol4">
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-gear"></i>
+                                <span>Settings</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-flag"></i>
+                                <span>Report History</span>
+                            </div>
+                        </a></li>
+
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                                <span>Help</span>
+                            </div>
+                        </a></li>
+                    <li><a href="#">
+                            <div>
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                <span>Send Feedback</span>
+                            </div>
+                        </a></li>
+                </ul>
+
+                <div class="aside-footer">
+                    <div>
+                        <a href="#">About</a>
+                        <a href="#">Press</a>
+                        <a href="#">Copyright</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Creator</a>
+                        <a href="#">Advertice</a>
+                        <a href="#">developers</a>
+                    </div>
+
+                    <div>
+                        <a href="#">Terms</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Policy 7 Safety</a>
+                        <a href="#">How YouTube Works</a>
+                        <a href="#">Test new features</a>
+                    </div>
+
+                    <p>&copy; 2023 Google LLC</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="container" id="mainSectionCont">
+            <div class="row videos">
+
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="row shorts">
+                <div class="shortsTop">
+                    <div class="shortsLogo">
+                        <img src="images/youtube-shorts-icon.png" alt="">
+                        <p>Shorts</p>
+                    </div>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <div class="shortsVideos">
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside2.jpeg" alt="">
+                            </div>
+                            <p>Youtube Clone</p>
+                            <small>192K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                            </div>
+                            <p>Brain Storm</p>
+                            <small>456K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside4.webp" alt="">
+                            </div>
+                            <p>PC world</p>
+                            <small>276K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside5.jpeg" alt="">
+                            </div>
+                            <p>Ninja Skills</p>
+                            <small>876K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside6.jpeg" alt="">
+                            </div>
+                            <p>World is a Scene</p>
+                            <small>896K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside7.png" alt="">
+                            </div>
+                            <p>CSS Practice</p>
+                            <small>453K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                            </div>
+                            <p>Brain Storm</p>
+                            <small>456K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside4.webp" alt="">
+                            </div>
+                            <p>PC world</p>
+                            <small>276K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside2.jpeg" alt="">
+                            </div>
+                            <p>PC world</p>
+                            <small>276K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside1.jpeg" alt="">
+                            </div>
+                            <p>PC world</p>
+                            <small>276K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside5.jpeg" alt="">
+                            </div>
+                            <p>PC world</p>
+                            <small>276K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside4.webp" alt="">
+                            </div>
+                            <p>PC world</p>
+                            <small>276K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside2.jpeg" alt="">
+                            </div>
+                            <p>PC world</p>
+                            <small>276K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside1.jpeg" alt="">
+                            </div>
+                            <p>PC world</p>
+                            <small>276K views</small>
+                        </div>
+                    </div>
+                    <div class="shortsCard">
+                        <div class="shortsBottom">
+                            <div class="shortsImage">
+                                <img src="images/asideChannelImage/aside5.jpeg" alt="">
+                            </div>
+                            <p>PC world</p>
+                            <small>276K views</small>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="row videos">
+
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <img src="images/asideChannelImage/aside3.jpeg" alt="">
+                        <p class="time">4:51:35</p>
+                    </div>
+                    <div class="cardInfo">
+                        <div class="channelImage">
+                            <img src="images/userphoto.png" alt="">
+                        </div>
+                        <div class="cardContent">
+                            <p class="videoName">Bberkdinc - Youtube Main Page Clone</p>
+                            <a href="#"><small>Bberkdinc</small></a>
+                            <div class="view">
+                                <p>27M views</p>
+                                <div class="dot"></div>
+                                <p>3 days ago</p>
+                            </div>
+
+                        </div>
+                        <div class="videoSettingsDot">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <script>
+        const menuSpan = document.querySelectorAll('main aside ul li a div span')
+        const menuIcons = document.querySelectorAll('main aside ul li a div i')
+        const menuAtags = document.querySelectorAll('main aside ul li a div')
+        const menuUl = document.querySelectorAll('main aside ul')
+
+        const asideMenu = document.getElementById('asideMenu')
+
+        const burger = document.querySelector('.burger')
+
+        const asideMenuSecond = document.getElementById('asideSecond')
+
+        const mainSection = document.getElementById('mainSectionCont')
+        const videos = document.querySelector('.videos')
+
+        const willRemoveItem = document.querySelectorAll('.willRemoveItems')
+
+        const asideClone = document.querySelector('.asideClone')
+        const burgerAsideClone = document.querySelector('.burgerAsideClone')
+
+        const searchIcon = document.querySelector('.searchIcon')
+        const searchInput = document.querySelector('#searchInput')
+
+        const logo = document.getElementById('logo')
+        const rightHeaderIcons = document.querySelector('#rightSideIcons')
+        const dismiss = document.getElementById('dismiss')
+
+
+
+
+        searchIcon.addEventListener('click', () => {
+            if (window.innerWidth <= 700) {
+                searchInput.classList.toggle('showSearchInput')
+                logo.classList.toggle('d-none')
+                rightHeaderIcons.classList.toggle('hiddenIcons')
+                console.log(rightHeaderIcons);
+                searchIcon.classList.toggle('d-none')
+                dismiss.classList.toggle('d-block')
+            }
+        })
+
+        dismiss.addEventListener('click', () => {
+            if (window.innerWidth <= 700) {
+                searchInput.classList.toggle('showSearchInput')
+                logo.classList.toggle('d-none')
+                rightHeaderIcons.classList.toggle('hiddenIcons')
+
+                dismiss.classList.toggle('d-block')
+                searchIcon.classList.toggle('d-none')
+            }
+        })
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 700) {
+                searchInput.classList.remove('showSearchInput')
+                logo.classList.remove('d-none')
+                rightHeaderIcons.classList.remove('hiddenIcons')
+                dismiss.classList.remove('d-block')
+                searchIcon.classList.remove('d-none')
+            }
+        })
+
+
+
+
+        // normal pencerede burgere click vercez
+        burger.addEventListener('click', () => {
+            if (window.innerWidth > 1312) {
+                asideMenuSecond.classList.toggle('d-none')
+
+                menuAtags.forEach((aTags) => {
+                    aTags.classList.toggle('a-column')
+                })
+
+                menuIcons.forEach((icons) => {
+                    icons.classList.toggle('icons')
+                })
+
+                menuSpan.forEach((spans) => {
+                    spans.classList.toggle('spans')
+                })
+
+                console.log(menuAtags);
+
+                willRemoveItem.forEach((items) => {
+                    items.classList.toggle('d-none')
+                })
+                asideMenu.classList.toggle('asideWidth')
+
+                mainSection.classList.toggle('mainSectionWidth')
+                console.log(mainSection);
+
+            }
+        })
+
+
+
+        function burger1(w, t) {
+            asideClone.style.width = w + '%';
+            asideClone.style.transform = 'translateX(' + t + 'px)';
+        }
+
+        function cloneBurger(t) {
+            asideClone.style.transform = 'translateX(' + t + 'px)';
+        }
+
+        function openBurger() {
+            burger1(22, 250);
+        }
+
+        function closeBurger() {
+            asideClone.style.transform = '';
+            asideClone.style.width = '';
+            burger1(0, 0);
+        }
+
+        if (window.innerWidth < 1312) {
+            burger.addEventListener("click", openBurger);
+            burgerAsideClone.addEventListener('click', function () {
+                cloneBurger(-250);
+            });
+        } else {
+            closeBurger();
+        }
+
+        window.addEventListener("resize", () => {
+            if (window.innerWidth < 1312) {
+                burger.addEventListener("click", openBurger);
+            } else {
+                burger.removeEventListener("click", openBurger);
+                closeBurger();
+            }
+        });
+
+        burgerAsideClone.addEventListener('click', () => {
+            if (window.innerWidth < 1312) {
+                closeBurger();
+            }
+        });
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,336 @@
+main {
+    display: flex;
+    position: relative;
+    top: 118px;
+}
+
+main aside {
+    background-color: white;
+    flex: 1;
+
+    position: relative;
+    transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+    height: 100%;
+    z-index: 3;
+    width: 16%;
+    position: fixed;
+
+
+
+}
+
+
+/* SCROLL */
+
+main aside:hover {
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8888889e;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+/* SCROLL */
+
+
+
+
+
+main aside ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.498);
+
+}
+
+main aside ul h3 {
+    margin: 1rem 0 1rem 1.8rem;
+}
+
+
+main aside ul li a {
+    display: flex;
+    padding: .5rem;
+    text-decoration: none;
+    color: black;
+    transition: background-color 500ms ease-in-out;
+    -webkit-transition: background-color 500ms ease-in-out;
+    -moz-transition: background-color 500ms ease-in-out;
+    -ms-transition: background-color 500ms ease-in-out;
+    -o-transition: background-color 500ms ease-in-out;
+    font-size: .9rem;
+    font-weight: 300;
+
+}
+
+main aside ul li a:hover {
+    background-color: rgba(211, 211, 211, 0.473);
+    font-weight: 400;
+}
+
+/* +media query için  */
+main aside ul.menucol1 li a,
+main aside ul.menucol2 li a,
+main aside ul.menucol3 li a,
+main aside ul.menucol4 li a {
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: .3rem;
+
+
+
+}
+
+main aside ul.menucol1 li a div,
+main aside ul.menucol2 li a div,
+main aside ul.menucol3 li a div,
+main aside ul.menucol4 li a div {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding: .5rem 1.8rem;
+
+
+}
+
+
+main aside ul.menucol1 li a div i,
+main aside ul.menucol2 li a div i,
+main aside ul.menucol3 li a div i,
+main aside ul.menucol4 li a div i {
+    font-size: 1rem;
+    margin-bottom: .3rem;
+    margin-right: 2rem;
+}
+
+main aside ul.menucol1 li a div span,
+main aside ul.menucol2 li a div span,
+main aside ul.menucol3 li a div span,
+main aside ul.menucol4 li a div span {
+    font-size: .9rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+main aside ul.channel-brandImage {
+    margin-bottom: 1rem;
+}
+
+main aside ul.channel-brandImage li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+
+
+}
+
+main aside ul.channel-brandImage li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+main aside ul.channel-brandImage .ImageBox {
+    display: flex;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 10px;
+
+    margin-left: 1rem;
+
+
+}
+
+main aside ul.channel-brandImage .ImageBox img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.aside-footer {
+    margin: 2rem 1rem;
+    padding-bottom: 4rem;
+}
+
+
+.aside-footer>div a {
+
+
+    text-decoration: none;
+    font-size: .8rem;
+    color: rgba(44, 42, 42, 0.6);
+    font-weight: bold;
+}
+
+.aside-footer div:first-child {
+    margin-bottom: 2rem;
+}
+
+
+.aside-footer p {
+    font-size: .8rem;
+    text-align: center;
+    color: rgba(69, 67, 67, 0.492);
+
+    margin-top: 2rem;
+}
+
+
+
+@media screen and (max-width:1312px) {
+    main aside {
+        width: 6%;
+
+    }
+
+    main aside #asideSecond {
+        display: none;
+    }
+
+    main aside ul.menucol2 li:nth-child(2),
+    main aside ul.menucol2 li:nth-child(3),
+    main aside ul.menucol2 li:nth-child(4),
+    main aside ul.menucol2 li:nth-child(6) {
+        display: none;
+    }
+
+
+    main aside ul.menucol1 li a,
+    main aside ul.menucol2 li a {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: .5rem;
+
+
+
+    }
+
+    main aside ul.menucol1 li a div,
+    main aside ul.menucol2 li a div {
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        padding: .5rem 0;
+
+        width: 75px;
+
+    }
+
+
+    main aside ul.menucol1 li a div i,
+    main aside ul.menucol2 li a div i {
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    main aside ul.menucol1 li a div span,
+    main aside ul.menucol2 li a div span {
+        font-size: .6rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: .7rem;
+
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    main aside {
+        display: none;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* aside lg screen burger event js codes */
+
+.d-none {
+    display: none;
+}
+
+.a-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    padding: .5rem 0;
+
+    width: 75px;
+}
+
+.icons {
+    font-size: 1rem;
+    margin: auto;
+}
+
+.spans {
+    font-size: .7rem !important;
+    font-weight: 400;
+    text-align: center;
+    margin-top: .7rem;
+}
+
+
+.asideWidth {
+    width: 6%;
+}
+
+.mainSectionWidth {
+    max-width: 95% !important;
+}
+
+
+.rowVideos-flex {
+    justify-content: space-between !important;
+}
+
+.rowVideos-flex-center {
+    justify-content: center !important;
+}

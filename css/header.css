@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+
+    z-index: 2;
+
+    padding: 0 1rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: .5rem 1rem;
+
+}
+
+nav i {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+header nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+header nav .logo img {
+    width: 100px;
+}
+
+
+header nav .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+header nav .input-group input {
+    outline: none;
+    border: none;
+    border: 1px solid grey;
+    width: 600px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: .8rem .5rem;
+
+
+
+
+
+}
+
+header nav .input-group .searchIcon {
+    position: absolute;
+    top: 2px;
+    right: 35px;
+    bottom: 0;
+    background-color: rgba(211, 211, 211, 0.216);
+    padding: 10px 20px;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 1px solid rgba(128, 128, 128, 0.573);
+
+}
+
+header nav .input-group #dismiss {
+    display: none;
+}
+
+
+
+
+header nav .rightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+
+header nav .rightSide .userImageBox {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+
+}
+
+header nav .rightSide .userImageBox img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+header .tags {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin-top: 1rem;
+
+
+    overflow: hidden;
+    flex-wrap: nowrap;
+
+    position: relative;
+
+    gap: 10px;
+
+    width: 100%;
+    margin-left: auto;
+}
+
+header .tags::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    bottom: 0;
+
+    box-shadow: -20px 0px 10px 3px rgb(255, 255, 255);
+}
+
+
+
+header .tags i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    bottom: 0;
+    z-index: 55;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+
+    color: grey;
+}
+
+
+header .tags a {
+
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.414);
+    padding: .5rem .7rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+header .tags a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width:1312px) {
+    header .tags {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        margin-top: 1rem;
+
+        overflow: hidden;
+        flex-wrap: nowrap;
+
+        position: relative;
+
+        gap: 10px;
+
+        width: 90%;
+        margin-left: auto;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+
+
+    header nav .input-group input {
+        outline: none;
+        border: none;
+        border: 1px solid grey;
+        width: 400px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: .8rem .5rem;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+
+
+    header nav .input-group input {
+        outline: none;
+        border: none;
+        border: 1px solid grey;
+        width: 300px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: .8rem .5rem;
+
+    }
+}
+
+@media screen and (max-width:700px) {
+
+
+
+    header nav .input-group input {
+        width: 600px;
+        display: none;
+        padding: .5rem .5rem;
+    }
+
+
+
+    header nav .input-group .searchIcon {
+        position: static;
+        background-color: transparent;
+        border: none;
+
+
+
+
+    }
+
+
+    header nav .input-group .mic {
+        display: none;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:425px) {
+
+    header .tags {
+        z-index: 4;
+    }
+
+    header nav .rightSide i {
+        display: none;
+    }
+
+    header nav .input-group .mic {
+        display: none;
+    }
+
+}
+
+
+
+
+/* header js codes */
+
+
+
+.showSearchInput {
+    display: block !important;
+    margin-left: 1rem !important;
+
+}
+
+.hiddenIcons {
+    display: none !important;
+}
+
+
+.searchIcon {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    bottom: 0;
+    background-color: rgba(211, 211, 211, 0.216);
+    padding: 10px 20px;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 1px solid rgba(128, 128, 128, 0.573);
+}
+
+.d-block {
+    display: block !important;
+}

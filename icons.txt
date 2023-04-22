@@ -1,0 +1,36 @@
+ <i class="fa-solid fa-bars"></i> //burgermenu 
+ <i class="fa-solid fa-magnifying-glass"></i> //search 
+ <i class="fa-solid fa-microphone"></i> //mic 
+ <i class="fa-solid fa-video"></i> //camera 
+ <i class="fa-solid fa-bell"></i> //bell 
+
+ <i class="fa-solid fa-house"></i> //home 
+ <i class="fa-solid fa-strikethrough"></i> ?? shorts
+ <i class="fa-brands fa-youtube"></i> //youtube originals 
+ <i class="fa-solid fa-layer-group"></i> //subscriptions 
+ <i class="fa-regular fa-circle-play"></i> //youtubemusic 
+
+ <i class="fa-solid fa-book-open"></i> //librray 
+ <i class="fa-solid fa-clock-rotate-left"></i> //history 
+ <i class="fa-solid fa-video"></i> //your videos 
+ <i class="fa-regular fa-clock"></i> //watch later 
+ <i class="fa-solid fa-download"></i> //downloads
+ <i class="fa-solid fa-angle-down"></i> //asagi ok 
+
+ explore kismi */
+  <i class="fa-solid fa-fire-flame-curved"></i> //trending 
+ <i class="fa-brands fa-itunes-note"></i> //music 
+ <i class="fa-solid fa-tower-broadcast"></i> //live 
+ <i class="fa-solid fa-gamepad"></i> //gaming 
+ <i class="fa-solid fa-trophy"></i> //sport 
+
+
+ /* more from youtube */
+ /* youtube music */
+<i class="fa-solid fa-gear"></i> //settings 
+ <i class="fa-regular fa-flag"></i> //Report History
+ <i class="fa-regular fa-circle-question"></i> //help 
+ <i class="fa-solid fa-triangle-exclamation"></i> //send feedback
+
+
+ <i class="fa-solid fa-xmark"></i> //close
