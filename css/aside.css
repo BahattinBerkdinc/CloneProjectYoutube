@@ -272,6 +272,22 @@ main aside ul.channel-brandImage .ImageBox img {
     }
 }
 
+@media screen and (max-width:835px) {
+
+    main aside ul.menucol1 li a div span,
+    main aside ul.menucol2 li a div span,
+    main aside ul.menucol3 li a div span,
+    main aside ul.menucol4 li a div span {
+        display: none;
+    }
+
+    main aside ul.menucol1 li a div i,
+    main aside ul.menucol2 li a div i {
+
+        margin-bottom: 1rem;
+    }
+}
+
 
 @media screen and (max-width:425px) {
     main aside {
